@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="ekoform" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" version="1.1">
+    <object class="EkoFormLead" table="ekoform_leads" extends="xPDOSimpleObject">
+        <field key="first_name" dbtype="varchar" precision="60" phptype="string" null="false" default=""/>
+        <field key="last_name" dbtype="varchar" precision="60" phptype="string" null="true"/>
+        <field key="email" dbtype="varchar" precision="120" phptype="string" null="true"/>
+        <field key="phone" dbtype="varchar" precision="20" phptype="string" null="false" default=""/>
+        <field key="message" dbtype="text" phptype="string" null="true"/>
+        <field key="ip" dbtype="varchar" precision="45" phptype="string" null="true"/>
+        <field key="crm_status" dbtype="varchar" precision="20" phptype="string" null="false" default="pending"/>
+        <field key="crm_order_id" dbtype="varchar" precision="40" phptype="string" null="true"/>
+        <field key="crm_error" dbtype="text" phptype="string" null="true"/>
+        <field key="createdon" dbtype="datetime" phptype="datetime" null="true"/>
+
+        <index alias="phone" name="phone" primary="false" unique="false" type="BTREE">
+            <column key="phone" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm_status" name="crm_status" primary="false" unique="false" type="BTREE">
+            <column key="crm_status" length="" collation="A" null="false"/>
+        </index>
+    </object>
+</model>
