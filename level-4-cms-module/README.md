@@ -4,6 +4,8 @@
 
 Демо: https://eko-plastics-modx.derristy.com/contact.html
 
+Доступ к админке MODX для проверки отправлен в Telegram.
+
 Вариант C из задания. Выбрал MODX, потому что файл `Import.xlsx` из второго уровня — выгрузка MODX (колонки `tv.*` это Template Variables), то есть магазин заказчика работает именно на нём.
 
 ## Установка
