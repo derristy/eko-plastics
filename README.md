@@ -7,7 +7,7 @@
 | 1. Frontend | [eko-plastics.derristy.com](https://eko-plastics.derristy.com) | [`level-1-frontend`](./level-1-frontend) |
 | 2. Excel и XML-фид | — | [`level-2-excel-xml`](./level-2-excel-xml) |
 | 3. SalesDrive и Діловод | [eko-plastics-integration.derristy.com](https://eko-plastics-integration.derristy.com) | [`level-3-integration`](./level-3-integration) |
-| 4. Модуль для MODX | [eko-plastics-modx.derristy.com](https://eko-plastics-modx.derristy.com/contact.html) | [`level-4-cms-module`](./level-4-cms-module) |
+| 4. Модуль для MODX | [eko-plastics-modx.derristy.com](https://eko-plastics-modx.derristy.com/contact) | [`level-4-cms-module`](./level-4-cms-module) |
 
 ## Что в каждом уровне
 

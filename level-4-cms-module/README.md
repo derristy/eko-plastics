@@ -2,7 +2,7 @@
 
 Форма обратной связи для MODX 3: серверная валидация, защита от спама, сохранение заявок через xPDO и передача их в SalesDrive.
 
-Демо: https://eko-plastics-modx.derristy.com/contact.html
+Демо: https://eko-plastics-modx.derristy.com/contact
 
 Доступ к админке MODX для проверки отправлен в Telegram.
 
