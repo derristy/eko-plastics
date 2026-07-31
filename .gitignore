@@ -1,0 +1,29 @@
+# Dependencies
+/vendor/
+**/vendor/
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+dist/
+.cache/
+
+# Excel temp files
+~$*.xls*
