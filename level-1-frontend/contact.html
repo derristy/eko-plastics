@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+        <a href="index.html" class="header__logo">Site name</a>
+
+        <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <ul class="nav__list">
+                <li><a href="#" class="link">Page</a></li>
+                <li><a href="#" class="link">Page</a></li>
+                <li><a href="index.html" class="link">Page</a></li>
+            </ul>
+            <a href="#" class="button">Button</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container contact">
+        <div>
+            <div class="contact__headline">
+                <h1 class="title">Contact us</h1>
+                <p class="subtitle">Subheading for description or instructions</p>
+            </div>
+
+            <form class="form" action="#" method="post">
+                <div class="form__field">
+                    <label class="form__label" for="first-name">First name</label>
+                    <input class="form__control" type="text" id="first-name" name="first_name" placeholder="Jane">
+                </div>
+
+                <div class="form__field">
+                    <label class="form__label" for="last-name">Last name</label>
+                    <input class="form__control" type="text" id="last-name" name="last_name" placeholder="Smitherton">
+                </div>
+
+                <div class="form__field form__field--full">
+                    <label class="form__label" for="email">Email address</label>
+                    <input class="form__control" type="email" id="email" name="email" placeholder="email@janesfakedomain.net">
+                </div>
+
+                <div class="form__field form__field--full">
+                    <label class="form__label" for="phone">Number</label>
+                    <input class="form__control" type="tel" id="phone" name="phone" placeholder="+380-ХХ-ХХ-ХХ-ХХХ">
+                </div>
+
+                <div class="form__field form__field--full">
+                    <label class="form__label" for="message">Your message</label>
+                    <textarea class="form__control" id="message" name="message" placeholder="Enter your question or message"></textarea>
+                </div>
+
+                <div class="form__field--full">
+                    <button class="button button--lg form__submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <img src="assets/img/hero-contact.jpg" alt="" class="contact__image" width="508" height="657">
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__brand">
+            <a href="index.html" class="footer__logo">Site name</a>
+            <div class="socials">
+                <a href="#" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.45 2.9h-2.33V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3V3zm5.66 15.34V9.9H5.86v8.44h2.8zM7.26 8.74c.98 0 1.59-.65 1.59-1.46-.02-.83-.61-1.46-1.57-1.46s-1.59.63-1.59 1.46c0 .81.61 1.46 1.55 1.46h.02zm3.62 9.6h2.8v-4.71c0-.25.02-.5.09-.68.2-.5.66-1.02 1.43-1.02 1.01 0 1.41.77 1.41 1.89v4.52h2.8v-4.85c0-2.59-1.38-3.79-3.22-3.79-1.51 0-2.17.84-2.54 1.42h.02V9.9h-2.8c.04.79 0 8.44 0 8.44z"/></svg>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.58 7.19a2.5 2.5 0 0 0-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.42a2.5 2.5 0 0 0-1.77 1.77C2 8.75 2 12 2 12s0 3.25.42 4.81a2.5 2.5 0 0 0 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.81-.42a2.5 2.5 0 0 0 1.77-1.77C22 15.25 22 12 22 12s0-3.25-.42-4.81zM10 15.02V8.98L15.2 12 10 15.02z"/></svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.07.05 1.79.22 2.43.47.66.25 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.36.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.07-.22 1.79-.47 2.43-.25.66-.6 1.22-1.15 1.77-.55.55-1.11.9-1.77 1.15-.64.25-1.36.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.07-.05-1.79-.22-2.43-.47-.66-.25-1.22-.6-1.77-1.15-.55-.55-.9-1.11-1.15-1.77-.25-.64-.42-1.36-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.07.22-1.79.47-2.43.25-.66.6-1.22 1.15-1.77.55-.55 1.11-.9 1.77-1.15.64-.25 1.36-.42 2.43-.47C8.94 2.01 9.28 2 12 2zm0 1.8c-2.67 0-2.99.01-4.04.06-.98.04-1.5.2-1.86.34-.47.18-.8.4-1.15.75-.35.35-.57.68-.75 1.15-.14.36-.3.88-.34 1.86-.05 1.05-.06 1.37-.06 4.04s.01 2.99.06 4.04c.04.98.2 1.5.34 1.86.18.47.4.8.75 1.15.35.35.68.57 1.15.75.36.14.88.3 1.86.34 1.05.05 1.37.06 4.04.06s2.99-.01 4.04-.06c.98-.04 1.5-.2 1.86-.34.47-.18.8-.4 1.15-.75.35-.35.57-.68.75-1.15.14-.36.3-.88.34-1.86.05-1.05.06-1.37.06-4.04s-.01-2.99-.06-4.04c-.04-.98-.2-1.5-.34-1.86-.18-.47-.4-.8-.75-1.15-.35-.35-.68-.57-1.15-.75-.36-.14-.88-.3-1.86-.34-1.05-.05-1.37-.06-4.04-.06zm0 3.07a5.13 5.13 0 1 1 0 10.26 5.13 5.13 0 0 1 0-10.26zm0 8.46a3.33 3.33 0 1 0 0-6.66 3.33 3.33 0 0 0 0 6.66zm6.54-8.66a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__columns">
+            <div class="footer__column">
+                <span>Topic</span>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+            </div>
+            <div class="footer__column">
+                <span>Topic</span>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+            </div>
+            <div class="footer__column">
+                <span>Topic</span>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+                <a href="#" class="footer__link">Page</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
